@@ -1,0 +1,10 @@
+# 生成exe 设置为EXE  生成lib 设置为LIB
+set(MODE "EXE")
+
+set(TARGET_PREFIX "APP_")
+
+GET_DIR_NAME(DIRNAME)
+
+set(FOLDER_NAME ${DIRNAME})
+
+ADD_ALL_SUBDIR()
